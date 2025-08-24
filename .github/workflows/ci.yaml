@@ -75,7 +75,7 @@ jobs:
             file: src/product-catalog/Dockerfile
             push: true
             tags: ${{ secrets.DOCKER_USERNAME }}/product-catalog:${{github.run_id}}
-#t
+#te
     
     updatek8s:
         runs-on: ubuntu-latest
