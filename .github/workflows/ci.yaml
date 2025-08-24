@@ -76,6 +76,7 @@ jobs:
             push: true
             tags: ${{ secrets.DOCKER_USERNAME }}/product-catalog:${{github.run_id}}
 #te
+#qwe
     
     updatek8s:
         runs-on: ubuntu-latest
